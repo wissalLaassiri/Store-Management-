@@ -1,0 +1,123 @@
+.mainWindow {
+	-fx-background-image: url("home.png");
+	-fx-background-repeat: stretch;
+	-fx-background-size: 900 506;
+	-fx-background-position: center center;
+}
+
+.labelTitle {
+	-fx-background-color: #9a39a8;
+	-fx-text-fill: #f7f7f7;
+	-fx-font-size: 26.0px;
+}
+
+.labelForm {
+	-fx-text-fill: #ff00ff;
+	-fx-padding: 5px;
+    -fx-background-insets: 5px;
+}
+.textField{
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+.text-field {
+    -fx-text-box-border: transparent;
+}
+.searchForm {
+	-fx-text-fill: #000000;
+	-fx-font-size: 20.0px;
+	
+}
+.labelTotal {
+	-fx-text-fill: #f7f7f7;
+	-fx-font-size: 26.0px;
+}
+
+.button {
+	-fx-background-color: #9a39a8;
+	-fx-border-color: #f000f0;
+	-fx-background-radius: 3.0, 2.0, 2.0, 2.0;
+	-fx-text-fill: #000000;
+	-fx-font-size: 14.0px;
+	-fx-pref-height: 40.0px;
+	-fx-pref-width: 190.0px;
+}
+.topButton{
+	-fx-background-color: #edc1f0;
+	-fx-border-color: #f000f0;
+	-fx-background-radius: 3.0, 2.0, 2.0, 2.0;
+	-fx-text-fill: #000000;
+	-fx-pref-height: 5.0px;
+	-fx-pref-width: 10.0px;
+}
+
+.littleButton1 {
+	-fx-background-color: #ff8080;
+	-fx-text-fill: #ffffff;
+	-fx-background-radius: 3.0, 2.0, 2.0, 2.0;
+	-fx-font-size: 14.0px;
+	-fx-pref-height: 20.0px;
+	-fx-pref-width: 20.0px;
+}
+.littleButton {
+	-fx-background-color: #ff8080;
+	-fx-text-fill: #ffffff;
+	-fx-background-radius: 3.0, 2.0, 2.0, 2.0;
+	-fx-font-size: 14.0px;
+	-fx-pref-height: 20.0px;
+	-fx-pref-width: 150.0px;
+	-fx-padding: 15px;
+    -fx-border-insets: 15px;
+    -fx-background-insets: 15px;
+}
+
+.longButton {
+	-fx-background-color: #ff8080;
+	-fx-text-fill: #ffffff;
+	-fx-background-radius: 3.0, 2.0, 2.0, 2.0;
+	-fx-font-size: 14.0px;
+	-fx-pref-height: 150.0px;
+	-fx-pref-width: 150.0px;
+	
+}
+.boxTotal {
+	-fx-background-color: #cb59db;
+	-fx-border-color: #223344;
+}
+
+.table-row-cell {
+	-f-cell-size: 2.0px;
+	-fx-font-size: 14.0px;
+	-fx-alignment: CENTER-RIGHT;
+	-fx-border-width: 0.009em;
+	-fx-border-color: #0079f2;
+	-fx-background-insets: 0.0, 0.0 0.0 0.0 0.0;
+	-fx-padding: 0.0em;
+}
+
+.updateVBox {
+	-fx-border-color: #e4aae6;
+    -fx-border-insets: 5;
+    -fx-border-width: 2;
+}
+.actionsVBox {
+	-fx-border-color: #f5e0f5;
+    -fx-border-insets: 5;
+    -fx-border-width: 2;
+}
+.vbox_style {
+    -fx-border-color: #f5e0f5;
+    -fx-border-insets: 5;
+    -fx-border-width: 1;
+    -fx-border-style: dashed;
+ }
+
+.actionsButton {
+	-fx-background-color: #e0a2ee;
+	-fx-text-fill: #ffffff;
+	-fx-background-radius: 3.0, 2.0, 2.0, 2.0;
+	-fx-font-size: 14.0px;
+	-fx-pref-height: 8.0px;
+	-fx-pref-width: 200.0px;
+}
